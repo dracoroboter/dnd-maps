@@ -1,0 +1,10 @@
+{
+  "type": "bookshelf",
+  "size": [1, 2],
+  "directional": true,
+  "directional_axis": "parallel",
+  "directions": ["north", "south", "east", "west"],
+  "description": "Libreria",
+  "description_in_room": "una libreria carica di volumi polverosi copre il muro",
+  "description_in_room_plural": "librerie cariche di volumi polverosi coprono i muri"
+}

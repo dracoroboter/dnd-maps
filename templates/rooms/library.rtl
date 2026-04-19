@@ -1,0 +1,19 @@
+# Biblioteca — metafile grammatica RTL v0.1
+#
+# File di librerie al centro della stanza (almeno 2 file con aisle tra loro).
+# Tavoli da lettura e sedie ai margini.
+#
+# Parser: tech/scripts/rtl-to-json.py
+# Specifica: tech/rules/RTL-spec.md
+
+template "library":
+    min_size: 6x6
+
+    bookshelf required 4 to 24 in_rows: auto
+
+    reading_table optional 1 to 4 fill: against_wall_no_door, near_wall_no_door, against_wall_any
+
+    chair optional 1 per reading_table: beside reading_table, next_to reading_table
+
+    constraints: no_overlap
+    todo: door_clearance, aisle_clearance

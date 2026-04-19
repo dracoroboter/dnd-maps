@@ -1,0 +1,16 @@
+# Stanza del tesoro del drago — metafile grammatica RTL v0.1
+#
+# Una pila di monete 4x4 al centro della stanza.
+# Il drago sdraiato sopra non è parte del template — è un personaggio,
+# gestito da un altro layer del progetto.
+#
+# Parser: tech/scripts/rtl-to-json.py
+# Specifica: tech/rules/RTL-spec.md
+
+template "dragon_treasury":
+    min_size: 6x6
+
+    coin_pile required 1 to 1 fill: center
+
+    constraints: no_overlap
+    todo: dragon_on_top

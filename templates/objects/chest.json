@@ -1,0 +1,11 @@
+{
+  "type": "chest",
+  "size": [
+    1,
+    1
+  ],
+  "directional": false,
+  "description": "Forziere",
+  "description_in_room": "un forziere di legno rinforzato è posato nell'angolo",
+  "description_in_room_plural": "forzieri di legno rinforzato sono posati negli angoli"
+}

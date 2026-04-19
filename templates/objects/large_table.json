@@ -1,0 +1,10 @@
+{
+  "type": "large_table",
+  "size": [
+    2,
+    4
+  ],
+  "directional": false,
+  "description": "Tavolo grande",
+  "description_in_room": "un lungo tavolo da riunione occupa il centro della stanza"
+}

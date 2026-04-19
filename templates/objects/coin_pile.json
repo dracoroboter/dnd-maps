@@ -1,0 +1,10 @@
+{
+  "type": "coin_pile",
+  "size": [
+    4,
+    4
+  ],
+  "directional": false,
+  "description": "Pila di monete",
+  "description_in_room": "un'enorme pila di monete d'oro occupa il centro della stanza"
+}

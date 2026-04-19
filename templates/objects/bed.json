@@ -1,0 +1,20 @@
+{
+  "type": "bed",
+  "size": [
+    1,
+    2
+  ],
+  "directional": true,
+  "directions": [
+    "north",
+    "south",
+    "east",
+    "west"
+  ],
+  "properties": {
+    "sheet_type": "plain"
+  },
+  "description": "Letto",
+  "description_in_room": "un giaciglio logoro è addossato al muro",
+  "description_in_room_plural": "giacigli logori sono addossati alle pareti"
+}

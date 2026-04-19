@@ -1,0 +1,8 @@
+{
+  "type": "reading_table",
+  "size": [2, 2],
+  "directional": false,
+  "description": "Tavolo da lettura",
+  "description_in_room": "un tavolo da lettura con sgabelli è posato ai margini della stanza",
+  "description_in_room_plural": "tavoli da lettura con sgabelli sono posati ai margini della stanza"
+}

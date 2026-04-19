@@ -1,0 +1,10 @@
+{
+  "type": "fountain",
+  "size": [
+    2,
+    2
+  ],
+  "directional": false,
+  "description": "Fontana",
+  "description_in_room": "una fontana zampilla al centro della stanza"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "robe",
+  "size": [
+    1,
+    1
+  ],
+  "directional": false,
+  "description": "Tunica nera appesa alla parete",
+  "description_in_room": "una tunica scura pende da un gancio sulla parete",
+  "description_in_room_plural": "tuniche scure pendono da ganci sulle pareti"
+}

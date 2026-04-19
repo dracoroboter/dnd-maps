@@ -1,0 +1,8 @@
+{
+  "type": "chair",
+  "size": [1, 1],
+  "directional": false,
+  "description": "Sedia",
+  "description_in_room": "una sedia è accostata al tavolo",
+  "description_in_room_plural": "sedie sono accostate ai tavoli"
+}

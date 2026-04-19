@@ -1,0 +1,25 @@
+# Cappella — metafile grammatica RTL v0.1
+#
+# Notazione:
+#   (parola)           = filler opzionale, ignorato dal parser
+#   (parola, parola)   = filler opzionale, una delle alternative, ignorato
+#   [a, b]             = sinonimi (stesso significato), il parser accetta qualsiasi
+#   [a | b]            = alternative con significato diverso
+#
+# Parser: tech/scripts/rtl-to-json.py
+# Specifica: tech/rules/RTL-spec.md
+
+template "chapel":
+    min_size: 4x4
+
+    # L'altare è staccato di 1-2 celle dal muro senza porte, al centro se nessun muro libero
+    altar required 1 to 1 fill: near_wall_no_door, near_wall, center
+
+    # Due candelabri ai lati del lato lungo dell'altare, poi angolo o muro come fallback
+    candelabra required 2 per altar: beside altar, corner_any, against_wall_any
+
+    # Vetrata alle spalle dell'altare — opzionale, richiede finestra sulla parete (todo)
+    stained_glass optional 1 per altar: against_wall_any
+
+    constraints: no_overlap
+    todo: altar_prefers_wall_without_door, candelabra_adjacent_to_altar, stained_glass_requires_window

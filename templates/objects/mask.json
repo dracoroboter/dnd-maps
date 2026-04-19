@@ -1,0 +1,8 @@
+{
+  "type": "mask",
+  "size": [1, 1],
+  "directional": false,
+  "description": "Maschera rituale appesa alla parete",
+  "description_in_room": "una maschera rituale è appesa alla parete",
+  "description_in_room_plural": "maschere rituali sono appese alle pareti"
+}

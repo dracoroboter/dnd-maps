@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "name": "Fogne di Oakshore",
+    "author": "dracoroboter",
+    "date": "2026-04-19",
+    "license": "CC BY-SA 4.0",
+    "grid": 1,
+    "unit": "sq"
+  },
+  "areas": [
+    {
+      "id": "T1", "label": "Galleria d'ingresso",
+      "shape": "rect", "x": 2, "y": 1, "w": 2, "h": 5,
+      "tags": ["tunnel"]
+    },
+    {
+      "id": "S1", "label": "Bivio dei tubi",
+      "shape": "rect", "x": 0, "y": 7, "w": 6, "h": 3,
+      "tags": ["junction"]
+    },
+    {
+      "id": "S2", "label": "Vicolo allagato",
+      "shape": "rect", "x": -8, "y": 7, "w": 7, "h": 2,
+      "tags": ["dead_end"]
+    },
+    {
+      "id": "S3", "label": "Vicolo crollato",
+      "shape": "rect", "x": 7, "y": 7, "w": 5, "h": 2,
+      "tags": ["dead_end"]
+    },
+    {
+      "id": "T2", "label": "Tunnel est",
+      "shape": "rect", "x": 13, "y": 7, "w": 2, "h": 6,
+      "tags": ["tunnel"]
+    },
+    {
+      "id": "S4", "label": "Nido di ratti",
+      "shape": "rect", "x": 11, "y": 14, "w": 5, "h": 4,
+      "tags": ["room", "combat"]
+    },
+    {
+      "id": "T3", "label": "La soglia",
+      "shape": "rect", "x": 12, "y": 19, "w": 2, "h": 2,
+      "tags": ["landmark"]
+    },
+    {
+      "id": "T4", "label": "Tunnel antico",
+      "shape": "rect", "x": 8, "y": 22, "w": 3, "h": 5,
+      "tags": ["tunnel"]
+    },
+    {
+      "id": "S5", "label": "Tana di Korex",
+      "shape": "circle", "cx": 4, "cy": 28, "r": 4,
+      "tags": ["room", "boss"]
+    },
+    {
+      "id": "S6", "label": "Alcova",
+      "shape": "rect", "x": -4, "y": 26, "w": 3, "h": 3,
+      "tags": ["room"]
+    },
+    {
+      "id": "T5", "label": "Passaggio nascosto",
+      "shape": "rect", "x": 3, "y": 33, "w": 2, "h": 4,
+      "tags": ["tunnel", "secret"]
+    }
+  ],
+  "connections": [
+    { "from": "T1", "to": "S1", "type": "tunnel", "width": 2 },
+    { "from": "S1", "to": "S2", "type": "tunnel", "width": 2 },
+    { "from": "S1", "to": "S3", "type": "tunnel", "width": 2 },
+    { "from": "S3", "to": "T2", "type": "tunnel", "width": 2 },
+    { "from": "T2", "to": "S4", "type": "tunnel", "width": 2 },
+    { "from": "S4", "to": "T3", "type": "tunnel", "width": 2 },
+    { "from": "T3", "to": "T4", "type": "tunnel", "width": 2 },
+    { "from": "T4", "to": "S5", "type": "arch" },
+    { "from": "S5", "to": "S6", "type": "door" },
+    { "from": "S5", "to": "T5", "type": "secret" }
+  ],
+  "objects": [
+    { "area": "T1", "type": "grate", "pos": [3, 1] },
+    { "area": "T1", "type": "trap", "pos": [3, 4], "hidden": true },
+    { "area": "S5", "type": "pillar", "pos": [4, 28] },
+    { "area": "S5", "type": "pillar", "pos": [2, 26] },
+    { "area": "S5", "type": "pillar", "pos": [6, 26] },
+    { "area": "S5", "type": "pillar", "pos": [2, 30] },
+    { "area": "S5", "type": "pillar", "pos": [6, 30] }
+  ]
+}

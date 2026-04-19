@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "name": "Taberna de Franciosibus aut Hispanardis",
+    "author": "dracoroboter",
+    "date": "2026-04-19",
+    "license": "CC BY-SA 4.0",
+    "grid": 1,
+    "unit": "sq"
+  },
+  "areas": [
+    {
+      "id": "S1", "label": "Sala principale",
+      "shape": "rect", "x": 0, "y": 0, "w": 8, "h": 6,
+      "tags": ["room", "large"]
+    },
+    {
+      "id": "S2", "label": "Cucina",
+      "shape": "rect", "x": 9, "y": 0, "w": 4, "h": 4,
+      "tags": ["room"]
+    },
+    {
+      "id": "S3", "label": "Bagno",
+      "shape": "rect", "x": 9, "y": 5, "w": 2, "h": 2,
+      "tags": ["room", "small"]
+    }
+  ],
+  "connections": [
+    { "from": "S1", "to": "S2", "type": "door" },
+    { "from": "S2", "to": "S3", "type": "door" },
+    { "from": "S1", "to": null, "type": "door", "side": "south", "label": "Ingresso" }
+  ],
+  "objects": [
+    { "area": "S1", "type": "table", "pos": [2, 1.5] },
+    { "area": "S1", "type": "table", "pos": [2, 3.5] },
+    { "area": "S1", "type": "table", "pos": [5, 1.5] },
+    { "area": "S1", "type": "table", "pos": [5, 3.5] },
+    { "area": "S1", "type": "counter", "pos": [7, 3] },
+    { "area": "S1", "type": "fireplace", "pos": [4, 0] },
+    { "area": "S2", "type": "table", "pos": [10.5, 2] },
+    { "area": "S2", "type": "barrel", "pos": [12, 1] }
+  ]
+}

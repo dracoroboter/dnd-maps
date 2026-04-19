@@ -1,0 +1,18 @@
+# Sala del trono — metafile grammatica RTL v0.1
+#
+# Pedana con trono contro il muro senza porte.
+# Arazzo alle spalle del trono (beside la pedana).
+# Tappeto rosso: non ancora supportato (todo — carpet lineare).
+#
+# Parser: tech/scripts/rtl-to-json.py
+# Specifica: tech/rules/RTL-spec.md
+
+template "throne_room":
+    min_size: 8x8
+
+    throne_platform required 1 to 1 fill: against_wall_no_door
+
+    tapestry required 1 per throne_platform: beside throne_platform, against_wall_no_door
+
+    constraints: no_overlap
+    todo: carpet_from_throne_to_door, steps_elevation

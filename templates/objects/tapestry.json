@@ -1,0 +1,8 @@
+{
+  "type": "tapestry",
+  "size": [1, 2],
+  "directional": true,
+  "directional_axis": "parallel",
+  "description": "Arazzo",
+  "description_in_room": "un arazzo istoriato è appeso alla parete alle spalle del trono"
+}

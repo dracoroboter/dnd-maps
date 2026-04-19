@@ -1,0 +1,11 @@
+{
+  "type": "column",
+  "size": [
+    1,
+    1
+  ],
+  "directional": false,
+  "description": "Colonna",
+  "description_in_room": "una colonna decorativa regge il soffitto",
+  "description_in_room_plural": "colonne decorative reggono il soffitto"
+}

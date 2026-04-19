@@ -1,0 +1,10 @@
+{
+  "type": "stained_glass",
+  "size": [
+    2,
+    1
+  ],
+  "directional": false,
+  "description": "Vetrata",
+  "description_in_room": "una vetrata colorata filtra una luce innaturale"
+}

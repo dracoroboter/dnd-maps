@@ -1,0 +1,11 @@
+{
+  "type": "candelabra",
+  "size": [
+    1,
+    1
+  ],
+  "directional": false,
+  "description": "Candelabro",
+  "description_in_room": "un candelabro a tre bracci illumina fiocamente la stanza",
+  "description_in_room_plural": "candelabri a tre bracci illuminano fiocamente la stanza"
+}

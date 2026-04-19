@@ -1,0 +1,10 @@
+{
+  "type": "table",
+  "size": [
+    2,
+    1
+  ],
+  "directional": false,
+  "description": "Tavolo",
+  "description_in_room": "un tavolo è posato al centro della stanza"
+}

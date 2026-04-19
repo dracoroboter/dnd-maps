@@ -1,0 +1,8 @@
+{
+  "type": "altar",
+  "size": [2, 1],
+  "directional": true,
+  "directional_axis": "parallel",
+  "description": "Altare",
+  "description_in_room": "un altare in pietra scura si erge contro il muro"
+}

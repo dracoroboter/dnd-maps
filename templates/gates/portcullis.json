@@ -1,0 +1,1 @@
+{"type": "portcullis", "states": ["open", "closed", "locked"], "default_state": "closed", "description": "Saracinesca"}

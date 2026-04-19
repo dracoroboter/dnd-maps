@@ -1,0 +1,8 @@
+{
+  "type": "throne_platform",
+  "size": [4, 3],
+  "directional": true,
+  "directional_axis": "parallel",
+  "description": "Pedana del trono con gradini",
+  "description_in_room": "una pedana rialzata con gradini regge il trono, posto contro il muro di fondo"
+}

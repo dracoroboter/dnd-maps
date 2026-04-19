@@ -1,0 +1,9 @@
+{
+  "type": "weapon_rack",
+  "size": [1, 2],
+  "directional": true,
+  "directional_axis": "parallel",
+  "description": "Rastrelliera delle armi",
+  "description_in_room": "una rastrelliera con armi è fissata alla parete",
+  "description_in_room_plural": "rastrelliere con armi sono fissate alle pareti"
+}

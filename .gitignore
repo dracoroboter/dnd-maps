@@ -1,0 +1,27 @@
+# Compilati
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Output generati
+*.png
+*.svg
+*.tmx
+!assets/**/*.png
+
+# Report
+reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

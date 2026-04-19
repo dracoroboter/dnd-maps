@@ -1,0 +1,20 @@
+# Camera di guardia — metafile grammatica RTL v0.1
+#
+# Letti lungo le pareti, rastrelliere con armi, tavolo da gioco, forzieri.
+#
+# Parser: tech/scripts/rtl-to-json.py
+# Specifica: tech/rules/RTL-spec.md
+
+template "guard_room":
+    min_size: 4x4
+
+    bed required 1 to 4 fill: against_wall
+
+    weapon_rack required 1 to 2 fill: against_wall_no_door
+
+    table optional 1 to 1 fill: center, near_wall
+
+    chest optional 1 per bed: next_to bed, corner_any, against_wall_any
+
+    constraints: no_overlap
+    todo: door_clearance

@@ -1,0 +1,10 @@
+{
+  "type": "demonic_pentacle",
+  "size": [
+    5,
+    5
+  ],
+  "directional": false,
+  "description": "Pentacolo demoniaco",
+  "description_in_room": "un pentacolo demoniaco è tracciato nel pavimento"
+}

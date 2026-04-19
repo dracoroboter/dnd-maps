@@ -1,0 +1,22 @@
+# Santuario demoniaco — metafile grammatica RTL v0.1
+#
+# Un pentacolo grande disegnato per terra (calpestabile).
+# Un'ara al centro del pentacolo, sovrapposta.
+# Opzionalmente tuniche nere alle pareti (o maschere — via override DDL).
+# Il cultista/demone non è parte del template: è un personaggio.
+#
+# Nota su 'overlap': la keyword indica che questo slot ignora il check
+# di sovrapposizione — l'ara è intenzionalmente sopra il pentacolo.
+#
+# Parser: tech/scripts/rtl-to-json.py
+# Specifica: tech/rules/RTL-spec.md
+
+template "demonic_shrine":
+    min_size: 7x7
+
+    demonic_pentacle required 1 to 1 fill: center
+    altar optional overlap 1 per demonic_pentacle: center
+    robe optional 2 to 4 fill: against_wall
+
+    constraints: no_overlap
+    todo: demon_on_altar, door_clearance

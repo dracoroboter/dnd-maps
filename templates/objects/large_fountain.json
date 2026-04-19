@@ -1,0 +1,10 @@
+{
+  "type": "large_fountain",
+  "size": [
+    4,
+    4
+  ],
+  "directional": false,
+  "description": "Fontana grande",
+  "description_in_room": "una grande fontana domina il centro della stanza"
+}
